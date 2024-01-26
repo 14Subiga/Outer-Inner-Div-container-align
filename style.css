@@ -1,0 +1,155 @@
+
+.Main{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: solid blue;
+    padding:200px;
+}
+.outer{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+.inner1,.inner2,.inner3
+{
+    border:solid blue;
+    width: 10px;
+    height:10px;
+    margin:5px;
+    padding: 5px;   
+}
+.outer1{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.inner11,.inner12,.inner13
+{
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin:5px;
+    padding: 5px;   
+}
+.outer2{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    
+}
+.inner21,.inner22,.inner23
+{
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin:5px;
+    padding: 5px;   
+}
+.outer3{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.inner31,.inner32,.inner33
+{
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin:5px;
+    padding: 5px;   
+}
+.outer4{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.inner41,.inner42,.inner43
+{
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin:5px;
+    padding: 5px;   
+}
+.outer5{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.inner51,.inner52,.inner53
+{
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin:5px;
+    padding: 5px;   
+}
+.outer6{
+    border:solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.inner61
+{
+    position: relative;
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin:5px;
+    padding: 5px;
+    top:0%;
+    left:0%;
+}
+.inner62
+{
+    position: relative;
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin-left:5px;
+    padding: 5px;
+    top:2%;
+    left:40%;  
+}
+.inner63
+{
+    position: relative;
+    border:solid blue;
+    width: 10px;
+    height: 10px;
+    margin-left:5px;
+    padding: 5px;
+    top:6%;
+    left:75%;  
+}
